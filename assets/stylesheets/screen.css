@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background: #FFF url('../images/background.png') repeat-x bottom;
+	background: #FFF url('../images/background.png') repeat-x top;
 	color: #000;
     font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
 	font-size: 14px;
@@ -9,8 +9,6 @@ body {
 	margin: 0 auto;
 	margin-bottom: 0;
 	width: 850px;
-	/* border: 1px #003333 solid; */
-	/* border-radius: 12px; */
 }
 #header {
 	margin: 10px auto;
