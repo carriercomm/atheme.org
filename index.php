@@ -12,9 +12,8 @@
 <html>
 <head>
 	<title><?php title(); ?></title>
-	<link rel="stylesheet" href="http://www.atheme.org/assets/style.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="http://www.atheme.org/assets/additional.css" type="text/css" media="all" />
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://www.atheme.org/assets/stylesheets/screen.css" type="text/css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 	<meta name="language" content="English">
 	<meta http-equiv="expires" content="never">
 	<meta name="author" content="Sam Ferry">
@@ -39,7 +38,7 @@
 <body>
 <div id="wrapper">
 	<div id="header">
-		<a href="http://www.atheme.org" style="border-bottom: none;" title="The Atheme Project"><img src="http://www.atheme.org/assets/logo.png" alt="The Atheme Project" /></a>
+		<a href="http://www.atheme.org" style="border-bottom: none;" title="The Atheme Project"><img src="http://www.atheme.org/assets/images/logo.png" alt="The Atheme Project" /></a>
 	</div>
 	<div id="navbar">
 	<ul>
