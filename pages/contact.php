@@ -1,4 +1,7 @@
-<div class="heading">Talk to Us</div>
+<ul class="headings">
+	<li><h2>Contact</h2></li>
+	<li><h3>talk to us</h3></li>
+</ul>
 
 <p>
 	Currently, IRC is the best way to get in touch with the individuals behind Atheme. You can find us on the <a href="http://www.staticbox.net">StaticBox network</a> via <a href="irc://irc.atheme.org"><strong>irc.atheme.org</strong></a>.

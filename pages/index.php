@@ -1,6 +1,7 @@
-<div class="heading">Welcome</div>
-<div class="subheading">We are Atheme, an open-source development collective. Questions or concerns in regard to the website? <a href="http://www.atheme.org/contact" title="Contact Us"><strong>Contact us</strong></a>.</div>
-
+<ul class="headings">
+	<li><h2>Welcome</h2></li>
+	<li><h3>we develop stuff.</h3></li>
+</ul>
 <p>
 	<strong>Recently, Atheme has acquired the popular revision control tracking service, <a href="http://cia.vc" title="CIA">cia.vc</a></strong>
 </p>

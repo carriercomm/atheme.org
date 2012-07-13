@@ -135,6 +135,7 @@ jQuery.fn = jQuery.prototype = {
 							jQuery.fn.attr.call( selector, context, true );
 
 						} else {
+
 							selector = [ doc.createElement( ret[1] ) ];
 						}
 
@@ -2066,6 +2067,7 @@ jQuery.fn.extend({
 		if ( typeof type !== "string" ) {
 			data = type;
 			type = "fx";
+
 		}
 
 		if ( data === undefined ) {
@@ -7652,6 +7654,7 @@ jQuery.extend({
 	// Counter for holding the number of active queries
 	active: 0,
 
+
 	// Last-Modified header cache for next request
 	lastModified: {},
 	etag: {}
@@ -7816,6 +7819,7 @@ function ajaxConvert( s, response ) {
 
 
 var jsc = jQuery.now(),
+
 	jsre = /(\=)\?(&|$)|\?\?/i;
 
 // Default jsonp settings
@@ -8266,6 +8270,7 @@ jQuery.fn.extend({
 	hide: function( speed, easing, callback ) {
 		if ( speed || speed === 0 ) {
 			return this.animate( genFx("hide", 3), speed, easing, callback);
+
 
 		} else {
 			var elem, display,

@@ -1,6 +1,7 @@
-<div class="heading">Here's What We're Working On</div>
-
-	<div class="subheading">Welcome to the Atheme projects directory, a listing of our current projects. Below, you will find projects grouped by their type, mainly audio, irc, and libraries. There is minimal information, however clicking on the project name will provide you with an information page, or the project's official site.</div>
+<ul class="headings">
+	<li><h2>Projects</h2></li>
+	<li><h3>what we're working on</h3></li>
+</ul>
 	<br />
 	<div id="projects-listing">
 	<ul>

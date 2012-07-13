@@ -1,8 +1,7 @@
-<div class="heading">charybdis</div>
-
-	<div class="subheading">A powerful IRC daemon, based on ircd-ratbox. Utilized on networks such as StaticBox and SorceryNet. A variant of charybdis has currently been deployed on Freenode.</div>
-
-	<br /><br />
+<ul class="headings">
+	<li><h2>charybdis</h2></li>
+	<li><h3>a powerful, ratbox-based irc daemon</li>
+</ul>
 
 	<div id="features">
 

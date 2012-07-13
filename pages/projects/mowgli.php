@@ -1,6 +1,7 @@
-<div class="heading">libmowgli</div>
-
-	<div class="subheading">A useful collection of routines for programming. Performance and usability-oriented extensions to C.</div>
+<ul class="headings">
+	<li><h2>libmowgli</h2></li>
+	<li><h3>performance and usability extensions to C</li>
+</ul>
 
 	<br /><br />
 

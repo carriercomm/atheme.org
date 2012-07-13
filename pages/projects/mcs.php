@@ -1,8 +1,8 @@
-<div class="heading">libmcs</div>
+<ul class="headings">
+	<li><h2>MCS</h2></li>
+	<li><h3>userland tools</li>
+</ul>
 
-	<div class="subheading">A library and set of userland tools which abstract the storage of configuration settings away from userland applications.</div>
-
-	<br /><br />
 
 	<strong>Note</strong>: mcs has been deprecated by GSettings.  Do not use it
 	in newly written code.

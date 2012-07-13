@@ -1,8 +1,7 @@
-<div class="heading">libguess</div>
-
-	<div class="subheading">A high-speed character set detection library.</div>
-
-	<br /><br />
+<ul class="headings">
+	<li><h2>libguess</h2></li>
+	<li><h3>high-speed character set detection</li>
+</ul>
 
 	<div id="features">
 
