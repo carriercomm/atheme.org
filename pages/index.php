@@ -28,8 +28,6 @@
             <h4>Our Stuff</h4>
             <ul>
                 <li><a href="http://www.github.com/atheme/"><strong>GitHub</strong> <span>Check us out.</span></a></li>
-                <li><a href="http://confluence.atheme.org" target="_blank"><strong>Wiki</strong> <span>Looking for information?</span></a></li>
-                <li><a href="http://jira.atheme.org" target="_blank"><strong>Bug Tracker</strong> <span>Found an issue?</span></a></li>
                 <li><a href="http://webchat.staticbox.net"><strong>Web IRC</strong> <span>Talk to us.</span></a></li>
             </ul>
         </div>

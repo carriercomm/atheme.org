@@ -53,8 +53,6 @@
                         <ul id="stuff_menu" class="dropdown-menu">
                             <li><a href="http://www.github.com/atheme/" target="_blank">GitHub</a></li>
                             <li><a href="http://webchat.staticbox.net" target="_blank">Webchat</a></li>
-                            <li><a href="http://confluence.atheme.org/" target="_blank">Wiki</a></li>
-                            <li><a href="http://jira.atheme.org" target="_blank">Bug Tracker</a></li>
                         </ul>
                     </li>
                     <li class="last"><a href="http://www.atheme.org/contact">Contact Us</a></li>
