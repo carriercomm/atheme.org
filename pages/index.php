@@ -14,4 +14,26 @@
 	If you have an issue or a suggestion that you would like to "formally" report, open up an issue at <a href="http://github.com/atheme/atheme.org/issues/"><strong>at the bug tracker</strong></a> and it will be seen and taken care of promptly.
 </p>
 
+<div class="row">                
+    <div id="callouts">
+        <div id="our_projects" class="span3">
+            <h4>Our Projects</h4>
+            <ul>
+                <li><a href="http://www.atheme.net" target="_blank"><strong>Atheme</strong> <span>IRC Services Package</span></a></li>
+                <li><a href="http://www.atheme.org/project/charybdis"><strong>Charybdis</strong> <span>IRC Daemon</span></a></li>
+                <li><a href="http://www.github.com/atheme/iris"><strong>Iris</strong> <span>Web-based IRC Client</span></a></li>
+            </ul>
+        </div>
+        <div id="our_stuff" class="span3">
+            <h4>Our Stuff</h4>
+            <ul>
+                <li><a href="http://www.github.com/atheme/"><strong>GitHub</strong> <span>Check us out.</span></a></li>
+                <li><a href="http://confluence.atheme.org" target="_blank"><strong>Wiki</strong> <span>Looking for information?</span></a></li>
+                <li><a href="http://jira.atheme.org" target="_blank"><strong>Bug Tracker</strong> <span>Found an issue?</span></a></li>
+                <li><a href="http://webchat.staticbox.net"><strong>Web IRC</strong> <span>Talk to us.</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 

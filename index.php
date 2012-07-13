@@ -4,10 +4,8 @@
 	if ($_SERVER['HTTP_HOST'] != "www.atheme.org")
 	{
 		if ($x == "/")
-			header("HTTP/1.1 301 Moved Permanently");
 			header("Location: http://www.atheme.org");
 		else
-			header("HTTP/1.1 301 Moved Permanently");
 			header("Location: http://www.atheme.org$x");
 	}
 ?>
@@ -22,7 +20,7 @@
 	<meta name="keywords" content="the atheme project, atheme.org, atheme.net, atheme, irc, irc services, charybdis, charybdis-ircd, ircd, irc client, git, confluence, jira, CIA, CIA.vc, revision control, version control, staticbox, staticbox.net, SystemInPlace, nenolod, samferry, william pitcock, sam ferry, audacious, audacious-plugins, audacious media player, NASPRO, atheme-services, atheme-web, atheme irc services, iris, libmowgli, libguess, MCS, libaosd, ShadowIRCd, UnrealIRCd, Debian, Debian Linux, Linux, UNIX, VPS, Xen, freenode" />
 
 	<!-- CSS -->
-   	<link rel="stylesheet" href="assets/stylesheets/screen.css" type="text/css" media="screen" />
+   	<link rel="stylesheet" href="http://www.atheme.org/assets/stylesheets/screen.css" type="text/css" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     
     <!-- JavaScript -->
@@ -36,93 +34,78 @@
                 <a href="#"><h1>The Atheme Project</h1></a>
             
                 <ul id="navigation" class="nav">
-                    <li class="first"><a href="#">Home</a></li>
+                    <li class="first"><a href="http://www.atheme.org/">Home</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Toggle Dropdown">Our Projects</a>
                         <ul id="projects_menu" class="dropdown-menu">
                             <li><a href="http://www.atheme.net" target="_blank">Atheme Services</a></li>
                             <li><a href="http://www.atheme.net/download-atheme-web.php" target="_blank">Atheme-Web</a></li>
-                            <li><a href="http://www.atheme.org/project/charybdi">charybdis</a></li>
+                            <li><a href="http://www.atheme.org/project/charybdis">charybdis</a></li>
                             <li><a href="http://github.com/atheme/iris/">iris</a></li>
-    			    <li><a href="http://www.atheme.org/project/mowgli">libmowgli</a></li>
-			    <li><a href="http://www.atheme.org/project/libguess">libguess</a</li></li>
-   		    	    <li><a href="http://www.atheme.org/project/mcs">MCS</a></li>
-			    <li><a href="http://www.atheme.org/project/libaosd">libaosd</a></li>
-
+    			    		<li><a href="http://www.atheme.org/project/mowgli">libmowgli</a></li>
+						    <li><a href="http://www.atheme.org/project/libguess">libguess</a></li>
+		   		    	    <li><a href="http://www.atheme.org/project/mcs">MCS</a></li>
+						    <li><a href="http://www.atheme.org/project/libaosd">libaosd</a></li>
                         </ul>
                     </li>
-                     <li><a href="#">Our Stuff</a></li>
-                    <li class="last"><a href="#">Contact Us</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Toggle Dropdown">Our Stuff</a>
+                        <ul id="projects_menu" class="dropdown-menu">
+                            <li><a href="http://www.github.com/atheme/" target="_blank">GitHub</a></li>
+                            <li><a href="http://webchat.staticbox.net" target="_blank">Webchat</a></li>
+                            <li><a href="http://confluence.atheme.org/" target="_blank">Wiki</a></li>
+                            <li><a href="http://jira.atheme.org" target="_blank">Bug Tracker</a></li>
+                        </ul>
+                    </li>
+                    <li class="last"><a href="http://www.atheme.org/contact">Contact Us</a></li>
                 </ul>
             </div>
         </header>
     	<div id="content">
         	<div class="wrapper">
             	<div class="row">
-	            	<?php
-
-			error_reporting(E_ALL);
-	
-		        if (isset($_GET["p"]))
-			{
-				if (($_GET["p"] == "projects") && (isset($_GET["sp"])))
-			        {
-		                        if (file_exists("pages/projects/" . strtolower($_GET["sp"]) . ".php"))
-		                        {
-		                                include("pages/projects/" . strtolower($_GET["sp"]) . ".php");
-		                        }
-		                        else
-	                        {
-		                                $sp = "pages/projects/404.php";
-		                                include($sp);
-		                        }
-		                }
-				else
-				{
-					if (file_exists("pages/" . strtolower($_GET["p"]) . ".php"))
-					{
-						include("pages/" . strtolower($_GET["p"]) . ".php");
-					}
-					else
-					{
-						$page = "pages/404.php";
-						include($page);
-					}
-				}
-			}
-			else
-			{
-				$page = "pages/index.php";
-				include($page);
-			}
-			?>
-			<div class="row">                
-	                <div id="callouts">
-	                	<div id="our_projects" class="span3">
-	                    	<h4>Our Projects</h4>
-                            <ul>
-                            	<li><a href="#"><strong>Atheme</strong> <span>IRC Services Package</span></a></li>
-                                <li><a href="#"><strong>Charybdis</strong> <span>IRC Daemon</span></a></li>
-                                <li><a href="#"><strong>Iris</strong> <span>Web-based IRC Client</span></a></li>
-                                <li><a href="#" class="viewmore">View More &raquo;</a></li>
-                            </ul>
-	                    </div>
-	                    <div id="our_stuff" class="span3">
-	                    	<h4>Our Stuff</h4>
-                            <ul>
-                            	<li><a href="#"><strong>GitHub</strong> <span>Check us out.</span></a></li>
-                                <li><a href="#"><strong>Bug Tracker</strong> <span>Found an issue?</span></a></li>
-                                <li><a href="#"><strong>Wiki</strong> <span>Looking for information?</span></a></li>
-                                <li><a href="#"><strong>Web IRC</strong> <span>Talk to us.</span></a></li>
-                            </ul>
-	                    </div>
-	                </div>
-                </div>
+				<?php
+                
+                error_reporting(E_ALL);
+                
+                if (isset($_GET["p"]))
+                {
+                    if (($_GET["p"] == "projects") && (isset($_GET["sp"])))
+                    {
+                        if (file_exists("pages/projects/" . strtolower($_GET["sp"]) . ".php"))
+                        {	
+                            include("pages/projects/" . strtolower($_GET["sp"]) . ".php");
+                        }
+                        else
+                        {
+                            $sp = "pages/projects/404.php";
+                            include($sp);
+                        }
+                    }
+                    else
+                    {
+                        if (file_exists("pages/" . strtolower($_GET["p"]) . ".php"))
+                        {
+                            include("pages/" . strtolower($_GET["p"]) . ".php");
+                        }
+                        else
+                        {
+                            $page = "pages/404.php";
+                            include($page);
+                        }		
+                    }
+                }
+                else
+                {
+                    $page = "pages/index.php";
+                    include($page);
+                }
+                ?>
             </div>
         </div>
         <footer>
     		<hr />
-            Copyright &copy; 2012, The Atheme Project
+            Copyright &copy; 2012, The Atheme Project. All Rights Reserved.
 	    </footer>
     </div>
 </div>
