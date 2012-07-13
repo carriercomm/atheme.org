@@ -36,7 +36,7 @@
                 <ul id="navigation" class="nav">
                     <li class="first"><a href="http://www.atheme.org/">Home</a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Toggle Dropdown">Our Projects</a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#projects_menu" title="Toggle Dropdown">Our Projects</a>
                         <ul id="projects_menu" class="dropdown-menu">
                             <li><a href="http://www.atheme.net" target="_blank">Atheme Services</a></li>
                             <li><a href="http://www.atheme.net/download-atheme-web.php" target="_blank">Atheme-Web</a></li>
@@ -49,8 +49,8 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Toggle Dropdown">Our Stuff</a>
-                        <ul id="projects_menu" class="dropdown-menu">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#stuff_menu" title="Toggle Dropdown">Our Stuff</a>
+                        <ul id="stuff_menu" class="dropdown-menu">
                             <li><a href="http://www.github.com/atheme/" target="_blank">GitHub</a></li>
                             <li><a href="http://webchat.staticbox.net" target="_blank">Webchat</a></li>
                             <li><a href="http://confluence.atheme.org/" target="_blank">Wiki</a></li>

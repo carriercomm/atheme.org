@@ -83,6 +83,8 @@ h1 {
 .dropdown-menu li {
 	padding-left: 4px !important;
 	padding-right: 0px !important;
+	width: 100%;
+	display: block;
 }
 
 .dropdown-menu li a, .dropdown li a:visited {
