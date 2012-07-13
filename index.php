@@ -112,21 +112,21 @@
     
 	<!-- JavaScript -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script type="text/javascript" src="assets/javascript/jquery.js"></script>
-    <script type="text/javascript" src="assets/javascript/google-code-prettify/prettify.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-alert.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-scrollspy.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-tab.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-popover.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-button.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-carousel.js"></script>
-    <script type="text/javascript" src="assets/javascript/bootstrap-typeahead.js"></script>
-    <script type="text/javascript" src="assets/javascript/application.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/jquery.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-button.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="http://www.atheme.org/assets/javascript/application.js"></script>
     
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
