@@ -33,7 +33,7 @@
     <div class="container">
         <header>
             <div class="container">
-                <a href="#"><h1>The Atheme Project</h1></a>
+                <a href="http://www.atheme.org"><h1>The Atheme Project</h1></a>
             
                 <ul id="navigation" class="nav">
                     <li class="first"><a href="http://www.atheme.org/">Home</a></li>
@@ -72,7 +72,7 @@
                 {
                     if (($_GET["p"] == "projects") && (isset($_GET["sp"])))
                     {
-                        if (file_exists("pages/projects/" . strtolower($_GET["sp"]) . ".php"))
+                        if (file_exists("pages/projects/" . strtolower($_GET["sp"]) . ".txt"))
                         {	
                             $file = "pages/projects/" . strtolower($_GET["sp"]) . ".txt";
 			    $open 	= fopen($file, "r");
