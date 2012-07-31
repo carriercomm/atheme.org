@@ -1,5 +1,4 @@
 <?php
-	include "sources/title.php";
 	$x = $_SERVER['REQUEST_URI'];
 	if ($_SERVER['HTTP_HOST'] != "www.atheme.org")
 	{
@@ -8,12 +7,15 @@
 		else
 			header("Location: http://www.atheme.org$x");
 	}
+
+	include_once("sources/title.php");
+	include_once("sources/markdown.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<!-- Title, Meta -->
-	<title>The Atheme Project</title>
+	<title><?php title(); ?></title>
     	<meta charset="utf-8" />
 	<meta name="author" content="Sam Ferry" />
 	<meta name="description" content="An open-source development collective, dedicated to creating powerful libraries and software for end-user benefit through collaboration and sophistication." />
@@ -42,10 +44,10 @@
                             <li><a href="http://www.atheme.net/download-atheme-web.php" target="_blank">Atheme-Web</a></li>
                             <li><a href="http://www.atheme.org/project/charybdis">charybdis</a></li>
                             <li><a href="http://github.com/atheme/iris/">iris</a></li>
-    			    		<li><a href="http://www.atheme.org/project/mowgli">libmowgli</a></li>
-						    <li><a href="http://www.atheme.org/project/libguess">libguess</a></li>
-		   		    	    <li><a href="http://www.atheme.org/project/mcs">MCS</a></li>
-						    <li><a href="http://www.atheme.org/project/libaosd">libaosd</a></li>
+    			    <li><a href="http://www.atheme.org/project/mowgli">libmowgli</a></li>
+			    <li><a href="http://www.atheme.org/project/libguess">libguess</a></li>
+		   	    <li><a href="http://www.atheme.org/project/mcs">MCS</a></li>
+			    <li><a href="http://www.atheme.org/project/libaosd">libaosd</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -72,31 +74,48 @@
                     {
                         if (file_exists("pages/projects/" . strtolower($_GET["sp"]) . ".php"))
                         {	
-                            include("pages/projects/" . strtolower($_GET["sp"]) . ".php");
+                            $file = "pages/projects/" . strtolower($_GET["sp"]) . ".txt";
+			    $open 	= fopen($file, "r");
+			    $contents 	= fread($open, filesize($file));
+			    fclose($open);
+			    echo Markdown($contents);
                         }
                         else
                         {
-                            $sp = "pages/projects/404.php";
-                            include($sp);
+                            $file = "pages/projects/404.txt";
+			    $open 	= fopen($file, "r");
+			    $contents 	= fread($open, filesize($file));
+			    fclose($open);
+			    echo Markdown($contents);
                         }
                     }
                     else
                     {
-                        if (file_exists("pages/" . strtolower($_GET["p"]) . ".php"))
+                        if (file_exists("pages/" . strtolower($_GET["p"]) . ".txt"))
                         {
-                            include("pages/" . strtolower($_GET["p"]) . ".php");
+                            $file = "pages/" . strtolower($_GET["p"]) . ".txt";
+			    $open 	= fopen($file, "r");
+			    $contents 	= fread($open, filesize($file));
+			    fclose($open);
+			    echo Markdown($contents);
                         }
                         else
                         {
-                            $page = "pages/404.php";
-                            include($page);
+                            $file = "pages/404.txt";
+			    $open 	= fopen($file, "r");
+			    $contents 	= fread($open, filesize($file));
+			    fclose($open);
+			    echo Markdown($contents);
                         }		
                     }
                 }
                 else
                 {
-                    $page = "pages/index.php";
-                    include($page);
+                            $file = "pages/index.txt";
+			    $open 	= fopen($file, "r");
+			    $contents 	= fread($open, filesize($file));
+			    fclose($open);
+			    echo Markdown($contents);
                 }
                 ?>
             </div>
