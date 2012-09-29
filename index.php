@@ -23,10 +23,10 @@
 
 	<!-- CSS -->
    	<link rel="stylesheet" href="http://www.atheme.org/assets/stylesheets/screen.css" type="text/css" media="screen" />
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-    
-    <!-- JavaScript -->
-    <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Orienta:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- JavaScript -->
+        <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 
 <body>	
