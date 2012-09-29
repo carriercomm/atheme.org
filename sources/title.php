@@ -5,7 +5,7 @@ function title()
 	{
 		echo "The Atheme Project";
 	}
-	else if (isset($_GET["p"]))
+	else if ($_GET['p'] != "")
 	{
 		if (($_GET["p"] == "projects") && (isset($_GET["sp"])))
 		{

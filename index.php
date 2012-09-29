@@ -68,7 +68,7 @@
                 
                 error_reporting(E_ALL);
                 
-                if (isset($_GET["p"]))
+                if ($_GET['p'] != "")
                 {
                     if (($_GET["p"] == "projects") && (isset($_GET["sp"])))
                     {
