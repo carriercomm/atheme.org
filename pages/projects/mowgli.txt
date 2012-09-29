@@ -1,13 +1,15 @@
 <ul class="headings">
 	<li><h2>libmowgli</h2></li>
-	<li><h3>performance and usability extensions to C</li>
+	<li><h3>the core framework for atheme applications</h3></li>
 </ul>
 
-	<br /><br />
+Mowgli (libmowgli) is the core framework for Atheme applications.  It contains a large
+class library and super-scalable multiprocessing model, built around a high performance
+eventing subsystem, as well as a number of high-performance data structures.
 
-<div id="features">
-	<strong>libmowgli Contains:</strong>
-	<ul>
+<h3>Partial class library included in Mowgli 2.x series</h3>
+
+<ul>
 	<li>mowgli_alloc: A safe wrapper around malloc/free.</li>
 	<li>mowgli_argstack: Safe serialization of valists.</li>
 	<li>mowgli_assert: Various assertion routines that can be used.</li>
@@ -35,26 +37,21 @@
     <li>mowgli_vio: An abstraction layer for I/O.</li>
     <li>mowgli_linebuf: A line-buffering implementation for clients.</li>
     <li>mowgli_thread: Minimal thread abstraction.</li>
-	</ul>
-</div>
+</ul>
 
-	<br />
+<h3>Downloading the latest code (requires Git)</h3>
 
-	<strong>Download the current development branch (requires Git):</strong><br />
-	<span class="cli">$ git clone git://github.com/atheme/libmowgli-2.git</span>
+<span class="cli">$ git clone git://github.com/atheme/libmowgli-2.git</span>
 
-	<br /><br />
+<h3>Installation</h3>
 
-	<strong>Installation is fairly typical:</strong><br />
-	<span class="cli">$ ./configure</span><br />
-	<span class="cli">$ make</span><br />
-	<span class="cli">$ sudo make install</span><br />
+<span class="cli">$ ./configure</span><br />
+<span class="cli">$ make</span><br />
+<span class="cli">$ sudo make install</span><br />
 
-	<br /><br /><br />
+<h3>Downloads</h3>
 
-	<div id="dl">
-	<strong>Downloads</strong>
-        <ul>
+<ul>
 	<li><a href="http://atheme.org/downloads/libmowgli-2.0.0.tar.gz">2.0.0</a></li>
 	<li><a href="http://distfiles.atheme.org/libmowgli-0.7.1.tgz">0.7.1</a></li>
         <li><a href="http://distfiles.atheme.org/libmowgli-0.7.0.tgz">0.7.0</a></li>
@@ -71,8 +68,5 @@
         <li><a href="http://distfiles.atheme.org/libmowgli-0.1.2.tgz">0.1.2</a></li>
         <li><a href="http://distfiles.atheme.org/libmowgli-0.1.1.tgz">0.1.1</a></li>
         <li><a href="http://distfiles.atheme.org/libmowgli-0.1.0.tgz">0.1.0</a></li>
-        </ul>
-        </div>
-
-        <a href="http://github.com/atheme/libmowgli-2/" title="libmowgli"><p style="text-align: center;"><span class="italics bold">Visit the Changelog</span></p></a>
+</ul>
 
