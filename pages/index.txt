@@ -3,9 +3,6 @@
 	<li><h3>we develop stuff.</h3></li>
 </ul>
 <p>
-	<strong>Recently, Atheme has acquired the popular revision control tracking service, <a href="http://cia.vc" title="CIA">cia.vc</a></strong>
-</p>
-<p>
 	We develop stuff, so check out the <a href="http://www.atheme.org/projects" title="Projects">projects page</a> for more information.
 	For many development versions of the Atheme projects, check out <a href="http://github.com/atheme/" title="Git">our Git repository</a>.
 </p>
