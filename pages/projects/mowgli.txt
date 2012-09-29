@@ -35,7 +35,34 @@ The typical workflow we use for contributions is to use GitHub's pull request fe
 submit a pull request, you simply fork the repository on GitHub, commit your chances to
 that fork, and send us a pull request containing your changes.
 
+Once the pull request is submitted, it will be considered by the steering committee.
+
+### Steering Committee
+
+The steering committee consists of the committers which have direct push access to the
+main repository and also make the day-to-day project management decisions for the Mowgli
+project.
+
+Presently, the steering committee consists of:
+
+* Alex Iadicicco (aji@)
+* William Pitcock (nenolod@)
+* Jilles Tjoelker (jilles@)
+
+Additional members have direct push access to the Mowgli repositories, but do not make
+core design decisions without approval of the steering committee.
+
 ### Downloads
 
 Downloads of libmowgli releases may be found on the Atheme distfiles server,
 [distfiles.atheme.org](http://distfiles.atheme.org/).
+
+### Interesting applications which use Mowgli
+
+This is a list of interesting applications which use Mowgli, if you want your application
+added here, send us information on it.
+
+* [Atheme IRC Services](http://www.atheme.net)
+* [Sigyn](http//unlink.nswier.edu.au/sigyn)
+* [libircclient](http://bitbucket.org/dwfreed/libircclient)
+* [ddosmon](http://github.com/nenolod/ddosmon)
