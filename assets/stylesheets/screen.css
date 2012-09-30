@@ -157,82 +157,61 @@ h4 {
 	color: #222;
 }
 
-#our_projects {
+.projectbox {
 	float: left;
 	text-align: left;
 	margin-left: 100px;
 }
 
-#our_projects ul {
+.projectbox ul {
 	margin: 0;
 	list-style-type: none;
 	margin-top: 20px;
 }
 
-#our_projects ul li {
+.projectbox ul li {
 	margin-bottom: 10px;
 }
 
-#our_projects ul li a, #our_projects ul li a:hover, #our_projects ul li a:visited {
+.projectbox ul li a, .projectbox ul li a:hover, .projectbox ul li a:visited {
 	color: #222;
 	text-decoration: none;
 	display: block;
 }
 
-#our_projects ul li span {
+.projectbox ul li span {
 	float: right;
 }
 
-#our_projects ul li a.viewmore, #our_projects ul li a:visited {
+.projectbox ul li a.viewmore, .projectbox ul li a:visited {
 	color: #222;
 	border-bottom: 1px dotted #444;
 	float: right;
 	margin-top: -2px;
 }
 
-#our_projects ul li a.viewmore:hover {
+.projectbox ul li a.viewmore:hover {
 	text-decoration: none;
 	border-bottom: 1px solid #444;
 }
 
-#our_stuff {
+.right {
 	float: right;
 	text-align: right;
 	margin-right: 100px;
 }
 
-#our_stuff ul {
-	margin: 0;
-	list-style-type: none;
-	margin-top: 20px;
-}
-
-#our_stuff ul li {
-	margin-bottom: 10px;
-}
-
-#our_stuff ul li a, #our_stuff ul li a:hover, #our_stuff ul li a:visited {
-	color: #222;
-	text-decoration: none;
-	display: block;
-}
-
-#our_stuff ul li span {
+.right ul li span {
 	float: left;
 }
 
-#our_stuff ul li a.viewmore, #our_stuff ul li a:visited {
+.right ul li a.viewmore, #our_stuff ul li a:visited {
 	color: #222;
 	border-bottom: 1px dotted #444;
 	float: left;
 	margin-top: -2px;
 }
 
-#our_stuff ul li a.viewmore:hover {
-	text-decoration: none;
-	border-bottom: 1px solid #444;
-}
-	
 /* ----- footer ----- */
 
 hr {

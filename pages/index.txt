@@ -12,16 +12,22 @@
 </p>
 
 <div class="row">                
-    <div id="callouts">
-        <div id="our_projects" class="span3">
-            <h4>Our Projects</h4>
+    <div class="callouts">
+        <div class="projectbox span3">
+            <h4>Top-level Projects</h4>
             <ul>
-                <li><a href="http://www.atheme.net" target="_blank"><strong>Atheme</strong> <span>IRC Services Package</span></a></li>
-                <li><a href="http://www.atheme.org/project/charybdis"><strong>Charybdis</strong> <span>IRC Daemon</span></a></li>
+                <li><a href="http://www.atheme.net" target="_blank"><strong>Atheme</strong> <span>Middleware for IRCv3 servers</span></a></li>
+                <li><a href="http://www.atheme.org/project/charybdis"><strong>Charybdis</strong> <span>IRCv3 Server</span></a></li>
+                <li><a href="http://www.atheme.org/project/mowgli"><strong>Mowgli</strong> <span>Cross-platform Core Framework</span></a></li>
+            </ul>
+
+            <h4>Incubator</h4>
+            <ul>
                 <li><a href="http://www.github.com/atheme/iris"><strong>Iris</strong> <span>Web-based IRC Client</span></a></li>
             </ul>
         </div>
-        <div id="our_stuff" class="span3">
+
+        <div class="projectbox span3 right">
             <h4>Our Stuff</h4>
             <ul>
                 <li><a href="http://www.github.com/atheme/"><strong>GitHub</strong> <span>Check us out.</span></a></li>
