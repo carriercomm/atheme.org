@@ -46,7 +46,6 @@
                             <li><a href="http://github.com/atheme/iris/">iris</a></li>
     			    <li><a href="http://www.atheme.org/project/mowgli">libmowgli</a></li>
 			    <li><a href="http://www.atheme.org/project/libguess">libguess</a></li>
-		   	    <li><a href="http://www.atheme.org/project/mcs">MCS</a></li>
 			    <li><a href="http://www.atheme.org/project/libaosd">libaosd</a></li>
                         </ul>
                     </li>
