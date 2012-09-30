@@ -147,6 +147,7 @@ p {
 .callouts {
 	position: relative;
 	margin-top: 2em;
+	clear: both;
 }
 
 h4 {
@@ -161,6 +162,7 @@ h4 {
 	float: left;
 	text-align: left;
 	margin-left: 100px;
+	padding-bottom: 2em;
 }
 
 .projectbox ul {
