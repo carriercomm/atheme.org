@@ -16,22 +16,24 @@
         <div class="projectbox span3">
             <h4>Top-level Projects</h4>
             <ul>
-                <li><a href="http://www.atheme.net" target="_blank"><strong>Atheme</strong> <span>Middleware for IRCv3 servers</span></a></li>
-                <li><a href="http://www.atheme.org/project/charybdis"><strong>Charybdis</strong> <span>IRCv3 Server</span></a></li>
-                <li><a href="http://www.atheme.org/project/mowgli"><strong>Mowgli</strong> <span>Cross-platform Core Framework</span></a></li>
-            </ul>
-
-            <h4>Incubator</h4>
-            <ul>
-                <li><a href="http://www.github.com/atheme/iris"><strong>Iris</strong> <span>Web-based IRC Client</span></a></li>
+                <li><a href="http://www.atheme.net" target="_blank"><strong>Atheme IRC Platform</strong> <span>IRCv3 Middleware Platform</span></a></li>
+                <li><a href="http://www.atheme.org/project/charybdis"><strong>Charybdis IRC Server</strong> <span>IRCv3 Server</span></a></li>
+                <li><a href="http://www.atheme.org/project/mowgli"><strong>Mowgli Framework</strong> <span>Cross-platform Core Framework</span></a></li>
             </ul>
         </div>
-
         <div class="projectbox span3 right">
             <h4>Our Stuff</h4>
             <ul>
                 <li><a href="http://www.github.com/atheme/"><strong>GitHub</strong> <span>Check us out.</span></a></li>
                 <li><a href="http://webchat.staticbox.net"><strong>Web IRC</strong> <span>Talk to us.</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="callouts">
+        <div class="projectbox span3">
+            <h4>Incubator</h4>
+            <ul>
+                <li><a href="http://www.github.com/atheme/iris"><strong>Iris</strong> <span>Web-based IRC Client</span></a></li>
             </ul>
         </div>
     </div>
