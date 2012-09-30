@@ -14,7 +14,7 @@
 <div class="row">                
     <div class="callouts">
         <div class="projectbox span3">
-            <h4>Top-level Projects</h4>
+            <h4>Projects</h4>
             <ul>
                 <li><a href="http://www.atheme.net" target="_blank"><strong>Atheme IRC Platform</strong> <span>IRCv3 Middleware Platform</span></a></li>
                 <li><a href="http://www.atheme.org/project/charybdis"><strong>Charybdis IRC Server</strong> <span>IRCv3 Server</span></a></li>
@@ -22,10 +22,10 @@
             </ul>
         </div>
         <div class="projectbox span3 right">
-            <h4>Our Stuff</h4>
+            <h4>Resources</h4>
             <ul>
-                <li><a href="http://www.github.com/atheme/"><strong>GitHub</strong> <span>Check us out.</span></a></li>
-                <li><a href="http://webchat.staticbox.net"><strong>Web IRC</strong> <span>Talk to us.</span></a></li>
+                <li><a href="http://www.github.com/atheme/"><strong>GitHub</strong> <span>Atheme GIT repositories</span></a></li>
+                <li><a href="http://webchat.staticbox.net/?channel=atheme-project"><strong>Web IRC</strong> <span>IRC channel for atheme.org</span></a></li>
             </ul>
         </div>
     </div>
@@ -34,6 +34,13 @@
             <h4>Incubator</h4>
             <ul>
                 <li><a href="http://www.github.com/atheme/iris"><strong>Iris</strong> <span>Web-based IRC Client</span></a></li>
+            </ul>
+        </div>
+        <div class="projectbox span3 right">
+            <h4>Activities</h4>
+            <ul>
+                <li><a href="/project/security"><strong>Security / Reliability Assurance</strong> <span>Security research at Atheme</span></a></li>
+                <li><a href="http://ircv3.atheme.org"><strong>IRCv3 Activity</strong> <span>Coordination of development on IRCv3 (with IETF)</span></a></li>
             </ul>
         </div>
     </div>
