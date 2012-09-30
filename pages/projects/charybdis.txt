@@ -1,27 +1,77 @@
 <ul class="headings">
 	<li><h2>charybdis</h2></li>
-	<li><h3>a powerful, ratbox-based irc daemon</li>
+	<li><h3>a highly-scalable ircv3-compliant irc daemon</li>
 </ul>
-<div id="features">
 
-	<strong>Download the current development branch (requires Git):</strong><br />
-	<span class="cli">$ git clone git://github.com/atheme/charybdis.git</span>
+Charybdis is an ircd used on various networks either as itself, or as the basis
+of a customized IRC server implementation.  A derivative of charybdis,
+[ircd-seven][seven] powers [freenode][fn], which is the largest IRC network in
+the world, according to irc.netsplit.de.
 
-	<br /><br /><br />
+[seven]: http://www.freenode.net/seven.shtml
+[fn]: http://www.freenode.net/
 
-	<div id="dl">
-	<strong>Downloads</strong>
-	<ul>
-        <li><a href="http://www.stack.nl/~jilles/irc/charybdis-3.3.0.tbz2">3.3.0</a></li>
-        <li><a href="http://www.stack.nl/~jilles/irc/charybdis-3.2.1.tbz2">3.2.1</a></li>
-	<li><a href="http://www.stack.nl/~jilles/irc/charybdis-3.2.0.tbz2">3.2.0</a></li>
-	<li><a href="http://www.stack.nl/~jilles/irc/charybdis-3.1.3.tbz2">3.1.3</a></li>
-	<li><a href="http://www.stack.nl/~jilles/irc/charybdis-3.1.2.tbz2">3.1.2</a></li>
-	<li><a href="http://www.stack.nl/~jilles/irc/charybdis-3.0.6.tbz2">3.0.6</a></li>
-	<li><a href="http://www.stack.nl/~jilles/irc/charybdis-3.0.5.tbz2">3.0.5</a></li>
-	<li><a href="http://www.stack.nl/~jilles/irc/charybdis-2.2.1.tar.gz">2.2.1</a></li>
-	</ul>
-	</div>
+### bi-directional collaboration with other IRC server projects
 
-	<a href="http://github.com/atheme/charybdis/" title="charybdis"><p style="text-align: center;"><span class="italics bold">Visit the Changelog</span></p></a>
-</div>
+One of the purposes of the charybdis project is to provide a testbed for the
+research and development of new features in IRC server software.  To this end,
+we have contributed patches to other IRC software, such as [ratbox][rb] and
+[ircu][ircu].
+
+Charybdis is originally based on ratbox 2.0, with some additional code from
+ircu 2.11, but a large number of features from Charybdis were integrated back
+into ratbox with ratbox 3, and ircu 2.12, and contributions are contributed
+bi-directionally on a regular basis.  To this extent, Charybdis can be considered
+a top-level IRCd project, and not a patchset to a different IRCd project.
+
+[rb]: http://www.ratbox.org/
+[ircu]: http://coder-com.undernet.org/
+
+As part of our mission, we have collaborated with other IRCd projects besides
+ratbox and ircu, in terms of technical development, such as [UnrealIRCd][unreal] and
+[InspIRCd][insp].  The Charybdis project also is represented in the
+[IRCv3 working group][ircv3wg], which itself is incubated by Atheme.
+
+[ircv3wg]: http://ircv3.atheme.org/
+[unreal]: http://www.unrealircd.org/
+[insp]: http://www.inspircd.org/
+
+### steering committee
+
+The Charybdis steering committee makes technical and project-management decisions
+for the Charybdis project.
+
+The current members of the Charybdis steering committee are:
+
+* Stephen Bennett (spb@)
+* William Pitcock (nenolod@)
+* Jilles Tjoelker (jilles@)
+
+### derivatives
+
+Charybdis has a few derivatives.  The one of interest to most people is [ShadowIRCd][sircd].
+
+[sircd]: http://www.shadowircd.net/
+
+Here is a full list of known derivatives:
+
+* [ShadowIRCd][sircd]
+* [SorIRCd](http://www.sorcery.net)
+* [ircd-seven](http://www.freenode.net/seven.shtml)
+
+### documentation
+
+Documentation for Charybdis is available in the following formats:
+
+* [HTML format](http://www.stack.nl/~jilles/irc/charybdis-oper-guide)
+* [PDF format](http://www.stack.nl/~jilles/irc/charybdis-oper-guide/charybdis-oper-guide.pdf)
+
+You may also find some interesting documentation for it on it's [IRC-wiki page][wiki].
+
+[wiki]: http://www.irc-wiki.org/Charybdis
+
+### downloads
+
+Releases of Charybdis may be downloaded at Atheme's distfiles server, [distfiles.atheme.org][dist].
+
+[dist]: http://distfiles.atheme.org/
