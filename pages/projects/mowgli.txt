@@ -32,7 +32,7 @@ It is also a good resource for developers interested in building apps with Mowgl
 ### Contributing Patches
 
 The typical workflow we use for contributions is to use GitHub's pull request feature.  To
-submit a pull request, you simply fork the repository on GitHub, commit your chances to
+submit a pull request, you simply fork the repository on GitHub, commit your changes to
 that fork, and send us a pull request containing your changes.
 
 Once the pull request is submitted, it will be considered by the steering committee.
@@ -63,6 +63,6 @@ This is a list of interesting applications which use Mowgli, if you want your ap
 added here, send us information on it.
 
 * [Atheme IRC Services](http://www.atheme.net)
-* [Sigyn](http//unlink.nswier.edu.au/sigyn)
+* [Sigyn](http://unlink.nswier.edu.au/sigyn)
 * [libircclient](http://bitbucket.org/dwfreed/libircclient)
 * [ddosmon](http://github.com/nenolod/ddosmon)
