@@ -1,12 +1,14 @@
 <ul class="headings">
 	<li><h2>Welcome</h2></li>
-	<li><h3>atheme.org consists of a wide assortment of activities covering a wide scope</h3></li>
 </ul>
 
-If you are looking for a rewarding experience with peer-directed meritocratically-driven projects, odds are
-likely you will find it here.
-
 <div class="row">
+    <div class="span3">
+        <h3>atheme.org consists of a wide assortment of activities covering a wide scope</h3>
+
+        If you are looking for a rewarding experience with peer-directed meritocratically-driven projects, odds are
+        likely you will find it here.
+    </div>
     <div class="span3">
         <h3>atheme.org is a strong, innovative community</h3>
 
@@ -55,7 +57,8 @@ likely you will find it here.
         <div class="projectbox span3 right">
             <h4>Activities</h4>
             <ul>
-                <li><a href="/project/security"><strong>Security / Reliability Assurance</strong> <span>Security research at Atheme</span></a></li>
+                <!--<li><a href="/project/security"><strong>Security / Reliability Assurance</strong> <span>Security research at Atheme</span></a></li>-->
+                <li><strong>Security / Reliability Assurance</strong> <span>Security research at Atheme</span></li>
                 <li><a href="http://ircv3.atheme.org"><strong>IRCv3 Activity</strong> <span>Coordination of development on IRCv3 (with IETF)</span></a></li>
             </ul>
         </div>

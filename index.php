@@ -41,7 +41,7 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Toggle Dropdown">Our Projects</a>
                         <ul id="projects_menu" class="dropdown-menu">
                             <li><a href="http://www.atheme.net" target="_blank">Atheme Services</a></li>
-                            <li><a href="http://www.atheme.net/download-atheme-web.php" target="_blank">Atheme-Web</a></li>
+                            <li><a href="http://www.atheme.net/web.html" target="_blank">Atheme-Web</a></li>
                             <li><a href="http://www.atheme.org/project/charybdis">charybdis</a></li>
                             <li><a href="http://github.com/atheme/iris/">iris</a></li>
     			    <li><a href="http://www.atheme.org/project/mowgli">libmowgli</a></li>
