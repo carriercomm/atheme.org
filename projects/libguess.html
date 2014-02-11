@@ -1,0 +1,29 @@
+---
+title: libguess
+layout: default
+---
+<div class="page-header">
+  <h1>libguess <small>high-speed character set detection</small></h1>
+</div>
+
+<p class="lead">libguess is a high speed, open source character set encoding detector. 
+  libguess employs discrete-finite automata to deduce the character set of the input buffer.
+  The advantage of this is that all character sets can be checked in parallel, and quickly.</p>
+
+<p>Just include libguess.h and link to libguess to get these functions in your program. For your convenience,
+  a pkg-config file is also supplied. libguess employs discrete-finite automata to deduce the character set of the input buffer.
+  The advantage of this is that all character sets can be checked in parallel, and quickly. Right now, libguess passes a byte to
+  each DFA on the same pass, meaning that the winning character set can be deduced as efficiently as possible.</p>
+
+<p>libguess is fully reentrant, using only local stack memory for DFA operations.</p>
+
+<p>You can find the latest development branch of libguess on the <a href="https://github.com/atheme/libguess">
+  Atheme GitHub</a>. You can also find a list of code releases below:</p>
+      
+<ul>
+  <li><a href="http://distfiles.atheme.org/libguess-1.0.tgz">libguess 1.0</a></li>
+  <li><a href="http://distfiles.atheme.org/libguess-1.1.tar.gz">libguess 1.1</a></li>
+</ul> 
+
+<p>Documentation for libguess functions can be found in the <a href="https://github.com/atheme/libguess/blob/master/README">README</a>
+  on GitHub.</p>
